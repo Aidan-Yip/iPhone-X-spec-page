@@ -1,0 +1,304 @@
+/* alldevices */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, rgba(255,255,255,1) 100%);
+}
+
+h4 {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 0%;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: italic;
+    font-size: small;
+    word-wrap: break-word;
+    padding-right: 300px;
+}
+
+.bluelink {
+    padding-top: 0%;
+    color: rgb(63, 177, 254);
+    font-size: small;
+}
+
+header {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 20px;  
+}
+
+.breaker {
+    background-color: black;
+    height: 3px;
+    width: 1000px;
+    
+}
+
+.main {
+    background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, #fbfbfb 80%);
+    border-radius: 25px;
+    margin: auto;
+}
+
+.iphoneimg {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;  
+}
+
+.main-section {
+    padding-left: 90px;
+}
+
+nav {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, rgba(255,255,255,1) 100%);
+    text-decoration: none;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+a {
+    display: block;
+    word-wrap: break-word;
+    font-size: small;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    display: block;
+    word-wrap: break-word;
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(0, 126, 199);
+}
+
+ul {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+ol {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* tablet */
+@media (min-width: 800px) and (max-width: 1189) {
+
+    nav {
+        display: inline-block;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: bold;
+        background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, rgba(255,255,255,1) 100%);
+        text-decoration: none;
+        width: auto;
+        height: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-top: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    p {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-style: italic;
+        font-size: small;
+        word-wrap: break-word;
+        padding-right: 700px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+}
+
+/* desktop */
+@media (min-width: 1190px) {
+
+    .main {
+
+        background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, #fbfbfb 80%);
+        border-radius: 25px;
+        width: 1220px;
+        margin: auto;
+        margin-right: auto;
+        margin-left: 200px;
+        margin-bottom: 500px;
+    }
+
+    p {
+        word-wrap: break-word;
+        padding-right: 700px;
+    }
+
+    xmp {
+        word-wrap: break-word;
+        padding-right: 700px;
+    }
+
+    .main-section {
+        padding-left: 90px;
+        font-size: large;
+    }
+
+    .bluelink:hover {
+        color: rgb(0, 126, 199);
+        font-size: medium;
+    }
+
+    .iphoneimg {
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 300px;
+        padding-right: 700px;
+        padding-bottom: 0;
+        border-radius: 20px;  
+    }
+
+    nav {
+        display: inline-block;
+        position: fixed;
+        width: 177px;
+        height: 800px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, rgba(255,255,255,1) 100%);
+        text-decoration: none;
+        padding-left: 15px;
+        padding-top: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    a {
+        display: block;
+        word-wrap: break-word;
+        text-decoration: none;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    a:hover {
+        display: block;
+        word-wrap: break-word;
+        text-decoration: none;
+        font-size: medium;
+    }
+    
+
+    ul {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+}
+
+/* phone screen */
+@media (max-width: 768px) and (max-width: 800px) {
+
+    .iphoneimg {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;  
+    }
+
+    .main {
+        
+        background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, #fbfbfb 80%);
+        border-radius: 25px;
+        margin: auto;
+        margin-left: auto;
+    }
+
+    .main-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: bold;
+        background: linear-gradient(0deg, rgba(40,185,255,1) 3%, rgba(120,211,255,1) 18%, rgba(255,255,255,1) 100%);
+        text-decoration: none;
+        height: 460px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-top: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    /*
+
+    nav {
+        
+        display: inline-block;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        background-color: #fbfbfb;
+        width: 540px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-top: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+    
+    (tablet add to phone edit) 
+        
+    nav {
+        display: inline-block;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: bold;
+        background-color: #fbfbfb;
+        width: auto;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-top: 15px;
+        border-radius: 25px;
+        z-index: 1;
+    } 
+    
+    */
+
+    a {
+        display: block;
+        word-wrap: none;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+
+    p {
+        word-wrap: break-word;
+        padding-right: 20px;
+    }
+
+}
